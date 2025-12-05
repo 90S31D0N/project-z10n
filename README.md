@@ -1,2 +1,2 @@
-# project-z10n
-My Final Hyprland Rice
+# PROJECT - Z10N
+My personal Hyprland Rice

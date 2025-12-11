@@ -5,4 +5,5 @@ if [ "$EUID" -ne 0 ]; then
     echo "Please run this script with sudo"
     exit 1
 fi
-sudo ./install_scripts/install_paru.sh
+
+./install_scripts/install_paru.sh

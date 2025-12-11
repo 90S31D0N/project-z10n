@@ -2,6 +2,6 @@
 
 git clone https://aur.archlinux.org/paru.git /tmp/paru
 cd /tmp/paru
-sudo makepkg -si --noconfirm
+makepkg -si --noconfirm --needed
 cd -
 rm -rf /tmp/paru

@@ -6,4 +6,11 @@
 #     exit 1
 # fi
 
+sudo pacman -Syu --noconfirm
+
+sudo pacman -S --needed --noconfirm git base-devel
+
 ./install_scripts/install_paru.sh
+
+sudo pacman -S --needed --noconfirm stow
+       
